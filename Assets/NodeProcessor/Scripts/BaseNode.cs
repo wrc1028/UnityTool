@@ -1,18 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class BaseNode : MonoBehaviour
+public class BaseNode : Node
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string GUID;
+    public string text;
+    public bool entryPoint = false;
 }
